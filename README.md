@@ -32,9 +32,9 @@ anonymous-stellar/
 │   ├── style_encoder_jp.pth              # weight of pretrained style encoder
 │   ├── style_encoder_ko.ckpt
 │   ├── style_encoder_ar.ckpt
-│   ├── style_encoder_jp.ckpt              # checkpoint of pretrained style encoder, projection layer and heads (for evaluation with TAS)
-│   ├── vgg19.pth                      # vgg weight
-│   └── sd/                            # pretrained weight of stable-diffusion-v1-5
+│   ├── style_encoder_jp.ckpt             # checkpoint of pretrained style encoder, projection layer and heads (for evaluation with TAS)
+│   ├── vgg19.pth                         # vgg weight
+│   └── sd/                               # pretrained weight of stable-diffusion-v1-5
 │       ├── vae/
 │       ├── unet/
 │       └── scheduler/ 

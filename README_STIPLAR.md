@@ -25,7 +25,7 @@ For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image 
 | Japanese | Text image pair | 356        | 1282       | 1638       | 97        | 288       | 385       |
 
 - `Train Open`, `Eval Open`: Images from Open-source dataset
-<br>
+
 - `Train Crawl`, `Eval Crawl`: Images from web crawling.
 
 </details>
@@ -45,7 +45,7 @@ For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image 
 | Japanese | Text image pair | 356        | 1282       | 1638       | 97        | 288       | 385       |
 
 - `Train Open`, `Eval Open`: Images from Open-source dataset
-<br>
+
 - `Train Crawl`, `Eval Crawl`: Images from web crawling.
 
 </details>
