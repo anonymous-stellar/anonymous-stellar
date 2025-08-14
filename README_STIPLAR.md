@@ -5,8 +5,51 @@
 <img src="figs/examples_stiplar.png" alt="Examples_STIPLAR" width="60%">
 </div>
 
+## To do
+- [ ] Dataset download location will be updated.
+
 ## Dataset
-For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image pairs of low-resource language and real-world data. The dataset for each language can be downloaded from [link](https://drive.google.com/drive/folders/1nI7SjtXikB4pkPVw7HKTop8nJOKLR3ut?usp=sharing).
+For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image pairs of low-resource language and real-world data. The dataset for each language can be downloaded from [Link](https://drive.google.com/drive/folders/1nI7SjtXikB4pkPVw7HKTop8nJOKLR3ut?usp=sharing).
+
+## Statistics
+<details>
+<summary><strong>Version 1 (2025.08.06)</strong></summary>
+
+| Lang.    | Type            | Train Open | Train Crawl | Train Total | Eval Open | Eval Crawl | Eval Total |
+|----------|-----------------|------------|-------------|-------------|-----------|------------|------------|
+| Korean   | Full image      | 269        | 317         | 586         | 68        | 80         | 148        |
+| Korean   | Text image pair | 1456       | 6229        | 7685        | 362       | 1717       | 2079       |
+| Arabic   | Full image      | 252        | 56          | 308         | 64        | 15         | 79         |
+| Arabic   | Text image pair | 1879       | 3460        | 5339        | 450       | 531        | 981        |
+| Japanese | Full image      | 97         | 252         | 349         | 25        | 63         | 88         |
+| Japanese | Text image pair | 356        | 1282       | 1638       | 97        | 288       | 385       |
+
+- `Train Open`, `Eval Open`: Images from Open-source dataset
+<br>
+- `Train Crawl`, `Eval Crawl`: Images from web crawling.
+
+</details>
+
+<details>
+<summary><strong>Version 2 (2025.08.15)</strong></summary>
+
+- In the Arabic `Train Crawl`, 1 Full image and 3 Text image pairs have been removed.
+
+| Lang.    | Type            | Train Open | Train Crawl | Train Total | Eval Open | Eval Crawl | Eval Total |
+|----------|-----------------|------------|-------------|-------------|-----------|------------|------------|
+| Korean   | Full image      | 269        | 317         | 586         | 68        | 80         | 148        |
+| Korean   | Text image pair | 1456       | 6229        | 7685        | 362       | 1717       | 2079       |
+| Arabic   | Full image      | 252        | **55**          | 308         | 64        | 15         | 79         |
+| Arabic   | Text image pair | 1879       | **3457**        | 5339        | 450       | 531        | 981        |
+| Japanese | Full image      | 97         | 252         | 349         | 25        | 63         | 88         |
+| Japanese | Text image pair | 356        | 1282       | 1638       | 97        | 288       | 385       |
+
+- `Train Open`, `Eval Open`: Images from Open-source dataset
+<br>
+- `Train Crawl`, `Eval Crawl`: Images from web crawling.
+
+</details>
+
 
 ## Evaluation
 Download the STIPLAR-eval dataset from [Link](https://drive.google.com/drive/folders/1Nyum75Q3e9Qb_7bhLLQFvPSNRlcEkcF8?usp=sharing) and unzip the files.

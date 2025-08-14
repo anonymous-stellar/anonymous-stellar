@@ -2,6 +2,9 @@
 
 ![Main_STELLAR](figs/main_stellar.png)
 
+## To do
+- [ ] Model weights download location will be updated.
+
 ## Install
 ```bash
 conda create -n stellar python=3.10.12
@@ -83,7 +86,7 @@ Syn_data/
 ```
 
 ### Data Preparation: Stage 2
-For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image pairs of low-resource language and real-world data. The dataset for each language can be downloaded from [link](https://drive.google.com/drive/folders/1nI7SjtXikB4pkPVw7HKTop8nJOKLR3ut?usp=sharing).
+For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image pairs of low-resource language and real-world data. The dataset for each language can be downloaded from [Link](https://drive.google.com/drive/folders/1nI7SjtXikB4pkPVw7HKTop8nJOKLR3ut?usp=sharing).
 
 ### Text Style Encoder Pretraining
 Create a `yaml` file with your desired settings in the `configs` folder, then run the `pretrain.py` file as follows. An example is shown below:
