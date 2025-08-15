@@ -114,12 +114,15 @@ python train.py --config cfg_train_ko_stage2
 
 ## Evaluation
 ### Data Preparation
-Download the STIPLAR-eval dataset from [Link](https://drive.google.com/drive/folders/1Nyum75Q3e9Qb_7bhLLQFvPSNRlcEkcF8?usp=sharing) and unzip the files.
+Download the STIPLAR-eval dataset from [Link](https://drive.google.com/drive/folders/1Nyum75Q3e9Qb_7bhLLQFvPSNRlcEkcF8?usp=sharing) and unzip the files. This is a newly re-numbered version that combines the `eval-crawling` folder and the `eval-mlt2019` folder from the `STIPILAR` dataset.
 ```bash
 ├── anonymous-stellar/
 │   ├── STIPLAR-ko-eval/
 │   ├── STIPLAR-ar-eval/
 │   └── STIPLAR-jp-eval/
+│       ├── i_s/
+│       ├── t_f/
+│       └── i_full/
 ```
 
 ### Image Quality and Visual Style Preservation w/ TAS
