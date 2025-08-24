@@ -50,6 +50,26 @@ For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image 
 
 </details>
 
+<details>
+<summary><strong>Version 3 (2025.08.24)</strong></summary>
+
+- In the Arabic `Train Open`, 1 Full image and 1 Text image pairs have been removed.
+
+| Lang.    | Type            | Train Open | Train Crawl | Train Total | Eval Open | Eval Crawl | Eval Total |
+|----------|-----------------|------------|-------------|-------------|-----------|------------|------------|
+| Korean   | Full image      | 269        | 317         | 586         | 68        | 80         | 148        |
+| Korean   | Text image pair | 1456       | 6229        | 7685        | 362       | 1717       | 2079       |
+| Arabic   | Full image      | **251**        | 55          | 308         | 64        | 15         | 79         |
+| Arabic   | Text image pair | **1878**       | 3457        | 5339        | 450       | 531        | 981        |
+| Japanese | Full image      | 97         | 252         | 349         | 25        | 63         | 88         |
+| Japanese | Text image pair | 356        | 1282       | 1638       | 97        | 288       | 385       |
+
+- `Train Open`, `Eval Open`: Images from Open-source dataset
+
+- `Train Crawl`, `Eval Crawl`: Images from web crawling.
+
+</details>
+
 
 ## Evaluation
 Download the STIPLAR-eval dataset from [Link](https://drive.google.com/drive/folders/1Nyum75Q3e9Qb_7bhLLQFvPSNRlcEkcF8?usp=sharing) and unzip the files. This is a newly re-numbered version that combines the `eval-crawling` folder and the `eval-mlt2019` folder from the `STIPILAR` dataset.
