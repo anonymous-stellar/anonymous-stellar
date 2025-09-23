@@ -3,7 +3,7 @@
 ![Main_STELLAR](figs/main_stellar.png)
 
 ## To do
-- [ ] Model weights download location will be updated.
+- [x] Model weights download location will be updated.
 
 ## Install
 ```bash
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 ## Checkpoints Preparation
-Here's the restructured text with different wording: [Link_1](https://drive.google.com/drive/folders/1xjD5EdUonqyDLDtst-58qfQOX9nwloMA?usp=sharing) and [Link_2](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5). You can download the model checkpoints for your desired language(ko: Korean, ar: Arabic, jp: Japanese). Arrange the directory structure as shown below:
+Here's the restructured text with different wording: [Link_1](https://huggingface.co/datasets/anonymous-stellar/anonymous-stiplar/tree/main/weights) and [Link_2](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5). You can download the model checkpoints for your desired language(ko: Korean, ar: Arabic, jp: Japanese). Arrange the directory structure as shown below:
 ```bash
 anonymous-stellar/
 ├── weights/
@@ -86,7 +86,7 @@ Syn_data/
 ```
 
 ### Data Preparation: Stage 2
-For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image pairs of low-resource language and real-world data. The dataset for each language can be downloaded from [Link](https://drive.google.com/drive/folders/1nI7SjtXikB4pkPVw7HKTop8nJOKLR3ut?usp=sharing).
+For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image pairs of low-resource language and real-world data. The dataset for each language can be downloaded from [Link](https://huggingface.co/datasets/anonymous-stellar/anonymous-stiplar/tree/main/STIPLAR).
 
 ### Text Style Encoder Pretraining
 Create a `yaml` file with your desired settings in the `configs` folder, then run the `pretrain.py` file as follows. An example is shown below:
@@ -114,7 +114,7 @@ python train.py --config cfg_train_ko_stage2
 
 ## Evaluation
 ### Data Preparation
-Download the STIPLAR-eval dataset from [Link](https://drive.google.com/drive/folders/1Nyum75Q3e9Qb_7bhLLQFvPSNRlcEkcF8?usp=sharing) and unzip the files. This is a newly re-numbered version that combines the `eval-crawling` folder and the `eval-mlt2019` folder from the `STIPILAR` dataset.
+Download the STIPLAR-eval dataset from [Link](https://huggingface.co/datasets/anonymous-stellar/anonymous-stiplar/tree/main/STIPLAR-eval) and unzip the files. This is a newly re-numbered version that combines the `eval-crawling` folder and the `eval-mlt2019` folder from the `STIPILAR` dataset.
 ```bash
 ├── anonymous-stellar/
 │   ├── STIPLAR-ko-eval/

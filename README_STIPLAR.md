@@ -9,7 +9,7 @@
 - [ ] Dataset download location will be updated.
 
 ## Dataset
-For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image pairs of low-resource language and real-world data. The dataset for each language can be downloaded from [Link](https://drive.google.com/drive/folders/1nI7SjtXikB4pkPVw7HKTop8nJOKLR3ut?usp=sharing).
+For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image pairs of low-resource language and real-world data. The dataset for each language can be downloaded from [Link](https://huggingface.co/datasets/anonymous-stellar/anonymous-stiplar/tree/main/STIPLAR).
 
 ## Statistics
 <details>
@@ -72,7 +72,7 @@ For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image 
 
 
 ## Evaluation
-Download the STIPLAR-eval dataset from [Link](https://drive.google.com/drive/folders/1Nyum75Q3e9Qb_7bhLLQFvPSNRlcEkcF8?usp=sharing) and unzip the files. This is a newly re-numbered version that combines the `eval-crawling` folder and the `eval-mlt2019` folder from the `STIPILAR` dataset.
+Download the STIPLAR-eval dataset from [Link](https://huggingface.co/datasets/anonymous-stellar/anonymous-stiplar/tree/main/STIPLAR-eval) and unzip the files. This is a newly re-numbered version that combines the `eval-crawling` folder and the `eval-mlt2019` folder from the `STIPILAR` dataset.
 ```bash
 ├── anonymous-stellar/
 │   ├── STIPLAR-ko-eval/
