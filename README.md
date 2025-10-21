@@ -86,7 +86,7 @@ Syn_data/
 ```
 
 ### Data Preparation: Stage 2
-For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image pairs of low-resource language and real-world data. The dataset for each language can be downloaded from [Link](https://huggingface.co/datasets/anonymous-stellar/anonymous-stiplar/tree/main/STIPLAR).
+For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image pairs of low-resource language and real-world data. The dataset for each language can be downloaded from [Link](https://huggingface.co/datasets/annms-stellar/stiplar).
 
 ### Text Style Encoder Pretraining
 Create a `yaml` file with your desired settings in the `configs` folder, then run the `pretrain.py` file as follows. An example is shown below:
