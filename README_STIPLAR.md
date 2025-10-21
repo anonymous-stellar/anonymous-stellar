@@ -39,8 +39,8 @@ For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image 
 |----------|-----------------|------------|-------------|-------------|-----------|------------|------------|
 | Korean   | Full image      | 269        | 317         | 586         | 68        | 80         | 148        |
 | Korean   | Text image pair | 1456       | 6229        | 7685        | 362       | 1717       | 2079       |
-| Arabic   | Full image      | 252        | **55**          | 308         | 64        | 15         | 79         |
-| Arabic   | Text image pair | 1879       | **3457**        | 5339        | 450       | 531        | 981        |
+| Arabic   | Full image      | 252        | **55**          | **307**         | 64        | 15         | 79         |
+| Arabic   | Text image pair | 1879       | **3457**        | **5336**        | 450       | 531        | 981        |
 | Japanese | Full image      | 97         | 252         | 349         | 25        | 63         | 88         |
 | Japanese | Text image pair | 356        | 1282       | 1638       | 97        | 288       | 385       |
 
@@ -59,8 +59,8 @@ For Stage 2 training, we utilize `STIPLAR`, our newly proposed scene text image 
 |----------|-----------------|------------|-------------|-------------|-----------|------------|------------|
 | Korean   | Full image      | 269        | 317         | 586         | 68        | 80         | 148        |
 | Korean   | Text image pair | 1456       | 6229        | 7685        | 362       | 1717       | 2079       |
-| Arabic   | Full image      | **251**        | 55          | 308         | 64        | 15         | 79         |
-| Arabic   | Text image pair | **1878**       | 3457        | 5339        | 450       | 531        | 981        |
+| Arabic   | Full image      | **251**        | 55          | **306**         | 64        | 15         | 79         |
+| Arabic   | Text image pair | **1878**       | 3457        | **5335**        | 450       | 531        | 981        |
 | Japanese | Full image      | 97         | 252         | 349         | 25        | 63         | 88         |
 | Japanese | Text image pair | 356        | 1282       | 1638       | 97        | 288       | 385       |
 
